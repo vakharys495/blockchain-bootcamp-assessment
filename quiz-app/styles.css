@@ -1,0 +1,40 @@
+body {
+	font-family: Arial, fantasy;
+	max-width: 600px;
+	margin: 20px;
+	text-align: center;
+
+}
+
+#quizContainer, #result {
+	margin-top: 20px;
+
+}
+
+button {
+	padding: 10px 20px;
+	margin: 10px;
+	cursor: pointer;
+}
+
+.option {
+	display: block;
+	margin: 20px;
+	padding: 10px;
+	border: solid #ccc;
+	cursor: pointer;
+
+}
+
+.option.selected {
+	background-color: #e0e0e0;
+
+}
+
+.correct {
+	color: green;
+}
+
+.incorrect {
+	color: red;
+}

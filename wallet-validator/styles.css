@@ -1,0 +1,30 @@
+body {
+	font-family: Arial, sans-serif;
+	max-width: 600px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+textarea {
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0;
+
+}
+
+button {
+	padding: 10px 20px;
+	margin: 5px;
+	cursor: pointer;
+}
+#copyButton:disabled{
+	cursor: not-allowed;
+	opacity: 0.5;
+}
+#results {
+	text-align: left;
+	margin-top: 20px;
+}
+.invalid{
+	color: indianred;
+}
